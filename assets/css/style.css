@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+.amiibo-name {
+  font-family: "Nunito", sans-serif;
+  color: #606c38;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #8ea053;
+ 
+}
+
+.btn:hover {
+  background-color: #98bb26;
+  color:#ffffff
+  
+
+
+}
+
+
+
+.btn-apadrina {
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 30px;
+  background-color: #606c38;
+  color: #fff;
+  margin-top: 20%;
+  width: 10em;
+  height: 2em;
+}
+
+@media (min-width: 768px) {
+  .btn-apadrina {
+    margin-top: 50%;
+    font-size: 2em;
+    width: 10em;
+    height: 2em;
+  }
+}
+
+.btn-apadrina:hover {
+  background-color: #8ea053;
+  color:#ffffff
+}
+
+
+
+#navbar {
+  z-index: 1;
+}
+
+.navbar {
+  background-color: #606c38;
+}
+
+/* CARDS */
+
+.sectiontitle {
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+}
+
+.card:hover {
+  border: 5px solid #f7f7f7;
+
+
+}
+
+
+
+
+#main .carrousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+#ModalContacto {
+  background-color: #606c3850;
+}
+
+.close {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.LogoModal {
+  display: block;
+  margin: auto;
+  max-width: 80px;
+}
+
+.container-sm {
+  padding: 20px;
+}
+
+#contactModal {
+  background-color: #606c3800;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fd7d1444;
+  color: white;
+  z-index: 1;
+}
+
+
+
+
+
+
+.carousel-indicators {
+  top: 160px;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #606c38;
+}
+
+
+
+.LogoCliente {
+  max-width: 10em;
+}
+
+@media (max-width: 768px) {
+  .LogoCliente {
+    max-width: 5em;
+  }
+}
+
+#contact {
+  background-color: #819443;
+}
+
+section#contactPrincipal {
+  background-color: #819443;
+  padding: 4rem;
+  color: white;
+}
+
+section#contactPrincipal form#contactForm .form-group {
+  margin-bottom: 1.5rem;
+}
+section#contactPrincipal form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+  padding: 1.25rem;
+}
+section#contactPrincipal form#contactForm .form-group input.form-control {
+  height: auto;
+}
+section#contactPrincipal form#contactForm .form-group-textarea {
+  height: 100%;
+}
+section#contactPrincipal form#contactForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+section#contactPrincipal form#contactForm p.help-block {
+  margin: 0;
+}
+section#contactPrincipal form#contactForm .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contactPrincipal form#contactForm ::-webkit-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #8ea053;
+}
+section#contactPrincipal form#contactForm :-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #8ea053;
+}
+section#contactPrincipal form#contactForm ::-moz-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #8ea053;
+}
+section#contactPrincipal form#contactForm :-ms-input-placeholder {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #8ea053;
+}
+
+#footer {
+  background-color: #606c38;
+}
+
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+small {
+  text-align: center;
+}
